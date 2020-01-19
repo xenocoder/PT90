@@ -1,0 +1,88 @@
+Partlist
+
+Exported from PT80.brd at 1/18/20 4:56 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package     Library         Position (mil)        Orientation
+
+C1       10uF           050_020_1   mb_caps-electro (2150 600)            R180
+C2       10uF           050_020_1   mb_caps-electro (2815 200)            R0
+C3       100uF          080_035_1   mb_caps-electro (2800 500)            R0
+C4       100uF          080_035_1   mb_caps-electro (2450 650)            R90
+C5       100uF          080_035_1   mb_caps-electro (2785 845)            R270
+C6       47nF           072X035     mb_caps-box     (1180 230)            R90
+C7       15nF           072X025     mb_caps-box     (2535 1260)           R270
+C9       470pF          050X030_025 mb_caps-ceramic (1650 800)            R270
+C11      1uF            072X045     mb_caps-box     (1465 810)            R270
+C12      0.1uF          072X035     mb_caps-box     (2085 1105)           R90
+C13      0.47uF         072X035     mb_caps-box     (165 850)             R90
+C14      1uF            072X045     mb_caps-box     (2845 1660)           R90
+C15      100pF          050X030_025 mb_caps-ceramic (920 825)             R270
+C16      47uF           063_025     mb_caps-electro (150 150)             R0
+C17      1uF            072X045     mb_caps-box     (900 2070)            R180
+C18      1uF            072X045     mb_caps-box     (560 855)             R90
+C19      0.1uF          072X035     mb_caps-box     (365 855)             R270
+C20      0.1uF          072X035     mb_caps-box     (765 855)             R270
+C21      0.1uF          072X035     mb_caps-box     (880 1485)            R0
+C22      0.1uF          072X035     mb_caps-box     (445 1485)            R0
+C23      10nF           072X025     mb_caps-box     (475 2080)            R0
+C24      2n2            072X025     mb_caps-box     (125 1980)            R270
+C25      1nF            072X025     mb_caps-box     (1180 1595)           R90
+C26      10nF           072X025     mb_caps-box     (1995 1960)           R180
+C27      1uF            072X045     mb_caps-box     (1230 2070)           R0
+C28      1uF            072X045     mb_caps-box     (1360 1595)           R90
+C30      2n2            072X025     mb_caps-box     (1705 1510)           R180
+C31      1uF            072X045     mb_caps-box     (815 145)             R180
+C32      0.47uF         072X035     mb_caps-box     (455 100)             R0
+C33      100pF          050X030_025 mb_caps-ceramic (1040 175)            R90
+C34      33nF           072X025     mb_caps-box     (1290 840)            R90
+C35      1nF            072X025     mb_caps-box     (1050 850)            R90
+C36      1uF            072X045     mb_caps-box     (1015 1175)           R90
+C37      1uF            072X045     mb_caps-box     (2280 1670)           R90
+C38      15nF           072X025     mb_caps-box     (2095 1680)           R270
+C39      47pF           050X030_025 mb_caps-ceramic (2050 1350)           R0
+C41      1uF            072X045     mb_caps-box     (1870 600)            R0
+D1       1N4148         DO35-3      mb_diodes       (2400 275)            R270
+D2       1N4148         DO35-3      mb_diodes       (2500 275)            R90
+D3       1N4148         DO35-3      mb_diodes       (2600 275)            R90
+DELAY    B50K           16MM        mb_pots         (1500 1900)           R180
+IC1      MAX1044        DIL08       mb_ics          (2100 275)            R90
+IC2      TL072P         DIL08       mb_ics          (1500 450)            R90
+IC3      78L05Z         TO92        mb_regulators   (2505 935)            R90
+IC4      78L12Z         TO92        mb_regulators   (2290 935)            R90
+LEVEL    B50K           16MM        mb_pots         (2500 1900)           R180
+PT2399                  DIL16       mb_ics          (500 1200)            R0
+Q1       2N5089         TO92-       mb_trans        (1165 545)            R270
+R1       1M             R0207/3     mb_resistors    (2365 1325)           R270
+R2       1K             R0207/3     mb_resistors    (1930 910)            R270
+R3       10k            R0207/3     mb_resistors    (1745 1195)           R0
+R4       1M             R0207/3     mb_resistors    (2750 1215)           R270
+R5       1M             R0207/3     mb_resistors    (2855 1215)           R270
+R6       36k            R0207/3     mb_resistors    (2605 1625)           R270
+R7       36k            R0207/3     mb_resistors    (1810 2075)           R0
+R8       22k            R0207/3     mb_resistors    (1160 1220)           R270
+R9       1k             R0207/3     mb_resistors    (1000 1900)           R180
+R10      22k            R0207/3     mb_resistors    (875 1715)            R180
+R11      10k            R0207/3     mb_resistors    (875 1615)            R0
+R12      22k            R0207/3     mb_resistors    (445 1615)            R0
+R13      22k            R0207/3     mb_resistors    (450 1715)            R180
+R14      10k            R0207/3     mb_resistors    (125 1610)            R90
+R15      22k            R0207/3     mb_resistors    (1685 1780)           R0
+R16      10k            R0207/3     mb_resistors    (1475 1215)           R90
+R17      10k            R0207/3     mb_resistors    (1375 1215)           R90
+R18      100k           R0207/3     mb_resistors    (1680 1645)           R0
+R19      10k            R0207/3     mb_resistors    (460 230)             R180
+R20      10k            R0207/3     mb_resistors    (1270 1215)           R90
+R21      10k            R0207/3     mb_resistors    (980 465)             R90
+R22      1k             R0207/3     mb_resistors    (1940 1690)           R270
+R23      10k            R0207/3     mb_resistors    (1745 1400)           R0
+R24      10k            R0207/3     mb_resistors    (1745 1295)           R180
+R25      10k            R0207/3     mb_resistors    (1820 910)            R90
+R26      1k             R0207/3     mb_resistors    (2645 1215)           R270
+R27      1M             R0207/3     mb_resistors    (1825 295)            R270
+REPEATS  B50K           16MM        mb_pots         (500 1900)            R180
+U$1      BOARDLINK      BOARDLINK   xc_library      (1400 115)            R0
+U$2      SA571          DIL16       xc_library      (500 495)             R0
