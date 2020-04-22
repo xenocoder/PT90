@@ -413,6 +413,40 @@ NS Package M08A</description>
 <rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
 <rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
 </package>
+<package name="LED3MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.143" y1="1.27" x2="1.524" y2="1.651" width="0.127" layer="21" curve="90"/>
+<wire x1="1.524" y1="1.651" x2="2.54" y2="1.651" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.651" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.778" x2="1.524" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-1.778" x2="1.524" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-1.651" x2="1.143" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-1.397" y1="1.27" x2="1.143" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="1.27" x2="-2.667" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.143" y1="-1.27" x2="-1.397" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.397" y1="-1.27" x2="-2.667" y2="0" width="0.127" layer="21" curve="-90"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="2" shape="square"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="2"/>
+<text x="0.889" y="-1.778" size="0.8128" layer="25" ratio="12" rot="R180">&gt;NAME</text>
+</package>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.905" y="0" drill="1" diameter="2"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="2" shape="square"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -425,6 +459,28 @@ NS Package M08A</description>
 <text x="-4.318" y="-3.5814" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="LED">
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<text x="-2.032" y="-3.556" size="1.778" layer="95">&gt;NAME</text>
+<pin name="C" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="A" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -460,6 +516,31 @@ NS Package M08A</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="3MM" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5MM" package="LED5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2707,7 +2788,7 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="C20" library="mb_caps-box" deviceset="072X035" device="2" value="0.1uF"/>
 <part name="GND17" library="mb_supply" deviceset="GND" device=""/>
 <part name="GND18" library="mb_supply" deviceset="GND" device=""/>
-<part name="DELAY" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
+<part name="DELAY" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
 <part name="GND19" library="mb_supply" deviceset="GND" device=""/>
 <part name="R10" library="mb_resistors" deviceset="6MM" device=".3" value="22k"/>
 <part name="R11" library="mb_resistors" deviceset="6MM" device=".3" value="10k"/>
@@ -2761,8 +2842,8 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="A2" library="mb_supply" deviceset="A" device=""/>
 <part name="C41" library="mb_caps-box" deviceset="072X045" device="2" value="1uF"/>
 <part name="GND29" library="mb_supply" deviceset="GND" device=""/>
-<part name="LEVEL" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
-<part name="REPEATS" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
+<part name="LEVEL" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
+<part name="REPEATS" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
 <part name="GND30" library="mb_supply" deviceset="GND" device=""/>
 <part name="GND31" library="mb_supply" deviceset="GND" device=""/>
 <part name="V1" library="mb_supply" deviceset="+9V" device=""/>
@@ -2773,6 +2854,8 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="OUT2" library="mb_supply" deviceset="OUT" device=""/>
 <part name="R28" library="mb_resistors" deviceset="6MM" device=".3" value="4k7"/>
 <part name="V3" library="mb_supply" deviceset="+9V" device=""/>
+<part name="3MM" library="mb_diodes" deviceset="LED" device="3MM"/>
+<part name="D5" library="mb_supply" deviceset="D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3254,6 +3337,12 @@ D = LED</text>
 </instance>
 <instance part="V3" gate="+9V" x="15.24" y="104.14" smashed="yes" rot="R90">
 <attribute name="VALUE" x="12.319" y="102.489" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="3MM" gate="G$1" x="43.18" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.212" y="107.696" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="D5" gate="D" x="50.8" y="104.14" smashed="yes">
+<attribute name="VALUE" x="55.88" y="103.124" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -4014,6 +4103,11 @@ D = LED</text>
 <wire x1="-5.08" y1="89.916" x2="-5.08" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="88.9" x2="-7.62" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D5" gate="D" pin="D"/>
+<pinref part="3MM" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+9V" class="0">
 <segment>
@@ -4073,6 +4167,13 @@ D = LED</text>
 <wire x1="43.18" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <junction x="43.18" y="48.26"/>
 <junction x="38.1" y="48.26"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="3MM" gate="G$1" pin="A"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
