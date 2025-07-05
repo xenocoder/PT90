@@ -2889,7 +2889,6 @@ v1.0 2020 04</text>
 <rectangle x1="2.2987" y1="6.4897" x2="5.1181" y2="6.5151" layer="26"/>
 <rectangle x1="5.9817" y1="6.4897" x2="6.0071" y2="6.5151" layer="26"/>
 <rectangle x1="6.7691" y1="6.4897" x2="7.7343" y2="6.5151" layer="26"/>
-<rectangle x1="15.4813" y1="6.4897" x2="16.2687" y2="6.5151" layer="26"/>
 <rectangle x1="16.2941" y1="6.4897" x2="16.3195" y2="6.5151" layer="26"/>
 <rectangle x1="17.9451" y1="6.4897" x2="18.0721" y2="6.5151" layer="26"/>
 <rectangle x1="18.2245" y1="6.4897" x2="18.5293" y2="6.5151" layer="26"/>
@@ -11931,55 +11930,55 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </groups>
 <elements>
 <element name="C1" library="mb_caps-electro" package="050_020_1" value="10uF" x="57.21" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.845" y="17.272" size="0.8128" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="59.115" y="17.3736" size="1.016" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C11" library="mb_caps-box" package="072X045" value="1uF" x="39.811" y="20.574" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.288" y="22.402" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="38.283" y="22.167" size="1.27" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C12" library="mb_caps-box" package="072X035" value="0.1uF" x="55.559" y="28.067" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.082" y="26.874" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="57.1432" y="26.1946" size="1.016" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C13" library="mb_caps-box" package="072X035" value="0.47uF" x="6.791" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.314" y="20.397" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="6.0892" y="19.9462" size="0.8128" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C14" library="mb_caps-box" package="072X045" value="1uF" x="78.263" y="42.164" smashed="yes" rot="R90" grouprefs="RIGHT">
-<attribute name="NAME" x="78.786" y="40.336" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="77.7082" y="41.0028" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C15" library="mb_caps-ceramic" package="050X030_025" value="100pF" x="25.968" y="20.955" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.3678" y="23.7998" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="24.3694" y="23.7836" size="0.8128" layer="27" ratio="12"/>
 </element>
 <element name="C17" library="mb_caps-box" package="072X045" value="1uF" x="25.46" y="52.578" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.288" y="53.101" size="1.27" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="27.0784" y="54.106" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C2" library="mb_caps-electro" package="050_020_1" value="10uF" x="77.12" y="5.08" smashed="yes" grouprefs="RIGHT">
-<attribute name="NAME" x="76.485" y="3.048" size="0.8128" layer="25" ratio="12"/>
+<attribute name="VALUE" x="75.9262" y="2.9464" size="1.016" layer="27" ratio="12"/>
 </element>
 <element name="C3" library="mb_caps-electro" package="080_035_1" value="100uF" x="77.12" y="12.7" smashed="yes" grouprefs="RIGHT">
-<attribute name="NAME" x="76.104" y="9.779" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="74.8628" y="9.9712" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="C4" library="mb_caps-electro" package="080_035_1" value="100uF" x="68.23" y="16.51" smashed="yes" rot="R90" grouprefs="RIGHT">
-<attribute name="NAME" x="71.024" y="15.367" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="70.9588" y="14.0496" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C5" library="mb_caps-electro" package="080_035_1" value="100uF" x="76.739" y="21.463" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="74.072" y="22.86" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="74.0102" y="23.8472" size="1.27" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C6" library="mb_caps-box" package="072X035" value="47nF" x="32.572" y="5.842" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.095" y="5.03" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="32.0734" y="4.4014" size="1.016" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C7" library="mb_caps-box" package="072X025" value="15nF" x="70.389" y="32.004" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="69.866" y="32.943" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="69.3128" y="33.6732" size="1.016" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C9" library="mb_caps-ceramic" package="050X030_025" value="470pF" x="44.51" y="20.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.2118" y="21.4122" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="42.4542" y="23.0978" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="D1" library="mb_diodes" package="DO35-3" value="1N4148" x="66.96" y="6.985" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="66.325" y="7.874" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="64.4454" y="9.9314" size="1.27" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="D2" library="mb_diodes" package="DO35-3" value="1N4148" x="69.5" y="6.985" smashed="yes" rot="R90" grouprefs="RIGHT">
-<attribute name="NAME" x="70.135" y="6.096" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="69.8048" y="5.9436" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="D3" library="mb_diodes" package="DO35-3" value="1N4148" x="72.04" y="6.985" smashed="yes" rot="R90" grouprefs="RIGHT">
-<attribute name="NAME" x="72.675" y="5.969" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="72.3194" y="5.8674" size="0.6096" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="IC1" library="mb_ics" package="DIL08" value="MAX1044" x="55.94" y="6.985" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.686" y="4.064" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -11990,176 +11989,176 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="42.478" y="8.509" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="IC3" library="mb_regulators" package="TO92" value="78L05Z" x="68.865" y="23.749" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="67.087" y="19.431" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="66.04" y="26.6248" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="IC4" library="mb_regulators" package="TO92" value="78L12Z" x="63.531" y="23.749" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="62.261" y="19.304" size="1.778" layer="25" ratio="10"/>
+<attribute name="VALUE" x="60.2544" y="26.416" size="1.27" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="PT2399" library="mb_ics" package="DIL16" value="" x="15.3" y="30.48" smashed="yes">
 <attribute name="NAME" x="12.379" y="29.845" size="1.27" layer="25" ratio="12"/>
 <attribute name="VALUE" x="7.807" y="29.21" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="R1" library="mb_resistors" package="R0207/3" value="1M" x="66.071" y="33.655" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="65.436" y="34.925" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="65.436" y="34.4678" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R2" library="mb_resistors" package="R0207/3" value="1K" x="51.622" y="23.114" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.987" y="24.384" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="51.0378" y="23.9522" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R3" library="mb_resistors" package="R0207/3" value="10k" x="46.923" y="30.353" smashed="yes">
-<attribute name="NAME" x="45.907" y="29.718" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="45.6784" y="29.7434" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="R4" library="mb_resistors" package="R0207/3" value="1M" x="75.85" y="30.861" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="75.215" y="32.131" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="75.215" y="32.004" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R5" library="mb_resistors" package="R0207/3" value="1M" x="78.517" y="30.861" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="77.882" y="32.131" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="77.9328" y="32.004" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R6" library="mb_resistors" package="R0207/3" value="36k" x="72.167" y="41.275" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="71.532" y="42.545" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="71.5066" y="42.7482" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R7" library="mb_resistors" package="R0207/3" value="36k" x="63.023" y="52.832" smashed="yes">
-<attribute name="NAME" x="61.753" y="52.197" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="61.6768" y="52.2478" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="R8" library="mb_resistors" package="R0207/3" value="22k" x="32.064" y="30.988" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.429" y="32.258" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="31.4036" y="32.4358" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="U$1" library="xc_library" package="BOARDLINK" value="BOARDLINK" x="38.16" y="2.921" smashed="yes"/>
 <element name="U$2" library="xc_library" package="DIL16" value="SA571" x="15.3" y="12.573" smashed="yes">
 <attribute name="VALUE" x="12.506" y="11.938" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="C18" library="mb_caps-box" package="072X045" value="1uF" x="16.824" y="21.717" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.347" y="19.889" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="16.2438" y="20.3272" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C16" library="mb_caps-electro" package="063_025" value="47uF" x="6.41" y="3.81" smashed="yes">
-<attribute name="NAME" x="5.14" y="1.397" size="1.016" layer="25" ratio="12"/>
+<attribute name="VALUE" x="4.4828" y="1.3622" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="R9" library="mb_resistors" package="R0207/3" value="1k" x="28" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.27" y="48.895" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="28.8636" y="48.8696" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C19" library="mb_caps-box" package="072X035" value="0.1uF" x="11.871" y="21.717" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.348" y="22.91" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="10.3884" y="23.6402" size="1.016" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C20" library="mb_caps-box" package="072X035" value="0.1uF" x="22.031" y="21.717" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.508" y="22.91" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="20.4976" y="23.691" size="1.016" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="DELAY" library="mb_pots" package="16MM_PCB_PADS" value="B50K" x="40.7" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.875" y="51.435" size="1.27" layer="21" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="48.447" y="51.562" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="R10" library="mb_resistors" package="R0207/3" value="22k" x="24.825" y="43.561" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.095" y="44.196" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="26.222" y="44.2468" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="R11" library="mb_resistors" package="R0207/3" value="10k" x="24.825" y="41.021" smashed="yes">
-<attribute name="NAME" x="23.555" y="40.386" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="23.4788" y="40.3352" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="R12" library="mb_resistors" package="R0207/3" value="22k" x="13.903" y="41.021" smashed="yes">
-<attribute name="NAME" x="12.633" y="40.386" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="12.4298" y="40.386" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="R13" library="mb_resistors" package="R0207/3" value="22k" x="14.03" y="43.561" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.3" y="44.196" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="15.4524" y="44.2214" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="R14" library="mb_resistors" package="R0207/3" value="10k" x="7.106" y="36.775" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.376" y="37.41" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="8.4268" y="37.4354" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C21" library="mb_caps-box" package="072X035" value="0.1uF" x="24.952" y="37.719" smashed="yes">
-<attribute name="NAME" x="23.759" y="37.196" size="1.016" layer="25" ratio="12"/>
+<attribute name="VALUE" x="23.3082" y="38.1922" size="1.016" layer="27" ratio="12"/>
 </element>
 <element name="C22" library="mb_caps-box" package="072X035" value="0.1uF" x="15.903" y="37.719" smashed="yes">
-<attribute name="NAME" x="14.71" y="37.196" size="1.016" layer="25" ratio="12"/>
+<attribute name="VALUE" x="14.0306" y="36.1348" size="1.016" layer="27" ratio="12"/>
 </element>
 <element name="C23" library="mb_caps-box" package="072X025" value="10nF" x="14.665" y="52.832" smashed="yes">
-<attribute name="NAME" x="13.472" y="52.309" size="1.016" layer="25" ratio="12"/>
+<attribute name="VALUE" x="13.1228" y="52.8734" size="1.016" layer="27" ratio="12"/>
 </element>
 <element name="C24" library="mb_caps-box" package="072X025" value="2n2" x="4.992" y="39.625" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.185" y="40.148" size="1.016" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="6.4072" y="40.2694" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C25" library="mb_caps-box" package="072X025" value="1nF" x="32.572" y="40.513" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.095" y="39.32" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="33.191" y="38.92" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C26" library="mb_caps-box" package="072X025" value="10nF" x="53.273" y="49.784" smashed="yes" rot="R180">
-<attribute name="NAME" x="54.466" y="50.307" size="1.016" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="54.9422" y="50.8094" size="1.016" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C27" library="mb_caps-box" package="072X045" value="1uF" x="33.842" y="52.578" smashed="yes">
-<attribute name="NAME" x="32.014" y="52.055" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="32.5284" y="53.209" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="R15" library="mb_resistors" package="R0207/3" value="22k" x="45.399" y="45.212" smashed="yes">
-<attribute name="NAME" x="44.129" y="44.577" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="44.0528" y="44.6278" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="C28" library="mb_caps-box" package="072X045" value="1uF" x="37.144" y="40.513" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.667" y="39.193" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="36.7924" y="39.174" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="R16" library="mb_resistors" package="R0207/3" value="10k" x="40.065" y="30.861" smashed="yes" rot="R90">
-<attribute name="NAME" x="40.7" y="29.591" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="40.6492" y="29.4894" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R17" library="mb_resistors" package="R0207/3" value="10k" x="37.525" y="30.861" smashed="yes" rot="R90">
-<attribute name="NAME" x="38.16" y="29.591" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="38.1854" y="29.5402" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R18" library="mb_resistors" package="R0207/3" value="100k" x="45.272" y="41.783" smashed="yes">
-<attribute name="NAME" x="44.002" y="41.148" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="43.367" y="41.1226" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="C30" library="mb_caps-box" package="072X025" value="2n2" x="45.907" y="38.354" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.1" y="38.877" size="1.016" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="47.3984" y="38.9984" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C31" library="mb_caps-box" package="072X045" value="1uF" x="23.301" y="3.683" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.524" y="5.257" size="1.27" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="24.8686" y="5.338" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C32" library="mb_caps-box" package="072X035" value="0.47uF" x="14.157" y="2.54" smashed="yes">
-<attribute name="NAME" x="12.964" y="2.017" size="1.016" layer="25" ratio="12"/>
+<attribute name="VALUE" x="12.4624" y="3.2164" size="0.8128" layer="27" ratio="12"/>
 </element>
 <element name="C33" library="mb_caps-ceramic" package="050X030_025" value="100pF" x="29.016" y="4.445" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.7432" y="1.7272" size="1.27" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="31.3074" y="1.711" size="1.016" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="R19" library="mb_resistors" package="R0207/3" value="10k" x="14.284" y="5.842" smashed="yes" rot="R180">
-<attribute name="NAME" x="15.554" y="6.477" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="14.7412" y="6.5532" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="R20" library="mb_resistors" package="R0207/3" value="10k" x="34.858" y="30.861" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.493" y="29.591" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="35.493" y="29.4894" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="C34" library="mb_caps-box" package="072X025" value="33nF" x="35.366" y="21.336" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.889" y="20.143" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="35.2992" y="19.7176" size="1.016" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C35" library="mb_caps-box" package="072X025" value="1nF" x="29.27" y="21.59" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.793" y="20.397" size="1.016" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="29.9398" y="20.0224" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="Q1" library="mb_trans" package="TO92-" value="2N5089" x="32.191" y="13.843" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.207" y="14.732" size="1.016" layer="25" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="29.016" y="16.764" size="1.27" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="R21" library="mb_resistors" package="R0207/3" value="10k" x="27.492" y="11.811" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.127" y="10.541" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="28.1016" y="10.414" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="C36" library="mb_caps-box" package="072X045" value="1uF" x="28.381" y="29.845" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.761" y="28.271" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="30.1376" y="28.2774" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C37" library="mb_caps-box" package="072X045" value="1uF" x="63.912" y="42.418" smashed="yes" rot="R90" grouprefs="RIGHT">
-<attribute name="NAME" x="64.435" y="40.59" size="1.27" layer="25" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="63.3064" y="41.206" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="C38" library="mb_caps-box" package="072X025" value="15nF" x="55.813" y="42.672" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.29" y="43.865" size="1.016" layer="25" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="54.8384" y="44.3412" size="1.016" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="R22" library="mb_resistors" package="R0207/3" value="1k" x="51.876" y="42.926" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.241" y="44.196" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="51.241" y="43.688" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R23" library="mb_resistors" package="R0207/3" value="10k" x="46.923" y="35.56" smashed="yes">
-<attribute name="NAME" x="45.653" y="34.925" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="45.6276" y="34.9758" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="R24" library="mb_resistors" package="R0207/3" value="10k" x="46.923" y="32.893" smashed="yes" rot="R180">
-<attribute name="NAME" x="48.193" y="33.528" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="48.3708" y="33.528" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C39" library="mb_caps-ceramic" package="050X030_025" value="47pF" x="54.67" y="34.29" smashed="yes">
-<attribute name="NAME" x="52.8158" y="36.1188" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="56.5966" y="37.6682" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="R25" library="mb_resistors" package="R0207/3" value="10k" x="48.828" y="23.114" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.463" y="21.844" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="49.4376" y="21.5138" size="1.27" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R26" library="mb_resistors" package="R0207/3" value="1k" x="73.183" y="30.861" smashed="yes" rot="R270" grouprefs="RIGHT">
-<attribute name="NAME" x="72.548" y="32.131" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="72.5226" y="31.8516" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="R27" library="mb_resistors" package="R0207/3" value="1M" x="48.955" y="7.493" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.32" y="8.763" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="48.2946" y="8.5344" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="C41" library="mb_caps-box" package="072X045" value="1uF" x="50.098" y="15.24" smashed="yes">
-<attribute name="NAME" x="48.27" y="14.717" size="1.27" layer="25" ratio="12"/>
+<attribute name="VALUE" x="48.7082" y="15.6932" size="1.27" layer="27" ratio="12"/>
 </element>
 <element name="LEVEL" library="mb_pots" package="16MM_PCB_PADS" value="B50K" x="70.6" y="48.26" smashed="yes" rot="R180" grouprefs="RIGHT">
 <attribute name="NAME" x="69.33" y="51.435" size="1.27" layer="21" ratio="12" rot="R180"/>
@@ -12170,7 +12169,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="11.932" y="46.155" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="R28" library="mb_resistors" package="R0207/3" value="4k7" x="49.209" y="52.832" smashed="yes">
-<attribute name="NAME" x="47.939" y="52.197" size="1.27" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="47.8628" y="52.197" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="3MM" library="mb_diodes" package="LED3MM" value="LED3MM" x="40.7" y="52.832" smashed="yes"/>
 </elements>

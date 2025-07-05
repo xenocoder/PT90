@@ -2788,7 +2788,7 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="C20" library="mb_caps-box" deviceset="072X035" device="2" value="0.1uF"/>
 <part name="GND17" library="mb_supply" deviceset="GND" device=""/>
 <part name="GND18" library="mb_supply" deviceset="GND" device=""/>
-<part name="DELAY" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
+<part name="DELAY" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
 <part name="GND19" library="mb_supply" deviceset="GND" device=""/>
 <part name="R10" library="mb_resistors" deviceset="6MM" device=".3" value="22k"/>
 <part name="R11" library="mb_resistors" deviceset="6MM" device=".3" value="10k"/>
@@ -2842,8 +2842,8 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="A2" library="mb_supply" deviceset="A" device=""/>
 <part name="C41" library="mb_caps-box" deviceset="072X045" device="2" value="1uF"/>
 <part name="GND29" library="mb_supply" deviceset="GND" device=""/>
-<part name="LEVEL" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
-<part name="REPEATS" library="mb_pots" deviceset="POT" device="16MM" value="B50K"/>
+<part name="LEVEL" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
+<part name="REPEATS" library="mb_pots" deviceset="POT" device="16MM_PCB_PADS" value="B50K"/>
 <part name="GND30" library="mb_supply" deviceset="GND" device=""/>
 <part name="GND31" library="mb_supply" deviceset="GND" device=""/>
 <part name="V1" library="mb_supply" deviceset="+9V" device=""/>
